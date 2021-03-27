@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ab90c95-1219-45e7-8e63-847465d5500c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-grid-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features-home-bg-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/features-top-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-bg-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-bg-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-author-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-inner-image-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news-inner-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/play-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/related-post-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team-member-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/testimonial-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/testimonial-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/testimonial-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/testimonial-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video-testimonial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Cta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/FeaturesHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/HeroHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/PageIllustration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/PricingTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/Testimonials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/additional-styles/range-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/additional-styles/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/additional-styles/toggle-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/additional-styles/utility-patterns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pQhvcvkAyrX4iYS2MLAC9sM1Ea" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/partials" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/partials" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ab90c95-1219-45e7-8e63-847465d5500c" name="Default Changelist" comment="" />
+      <created>1615121452094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615121452094</updated>
+      <workItem from="1615121453780" duration="885000" />
+      <workItem from="1615720106063" duration="4262000" />
+      <workItem from="1615812958560" duration="12138000" />
+      <workItem from="1615988505320" duration="215000" />
+      <workItem from="1616010583486" duration="822000" />
+      <workItem from="1616058385873" duration="263000" />
+      <workItem from="1616746060354" duration="2929000" />
+      <workItem from="1616777150770" duration="850000" />
+      <workItem from="1616828697143" duration="4397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="184" key="#Plugins" timestamp="1615967083618">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="184" key="#Plugins/0.23.1680.1027@0.23.1680.1027" timestamp="1615967083618" />
+    <state x="576" y="347" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615723433053">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="576" y="347" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1615723433053" />
+    <state x="940" y="123" width="640" height="827" key="DiffContextDialog" timestamp="1615880662649">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="940" y="123" width="640" height="827" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1615880662649" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1616830062416">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1616830062416" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1616836739951">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1616836739951" />
+    <state x="690" y="252" width="530" height="496" key="VCS.ChangeListViewerDialog" timestamp="1615886512204">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="690" y="252" width="530" height="496" key="VCS.ChangeListViewerDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1615886512204" />
+    <state x="222" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616747240045">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="222" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1616747240045" />
+    <state x="383" y="298" width="1297" height="502" key="find.popup" timestamp="1616829368567">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="383" y="298" width="1297" height="502" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616829368567" />
+    <state x="207" y="222" key="new project wizard" timestamp="1615723417114">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="207" y="222" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1615723417114" />
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1616747024548">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616747024548" />
+    <state x="570" y="380" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1616058126036">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="570" y="380" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1616058126036" />
+  </component>
+</project>
