@@ -45,10 +45,10 @@ function Carousel() {
           <div className="swiper-wrapper">
             {/* Carousel items */}
             <div className="swiper-slide max-w-lg">
-              <img className="transition-opacity duration-300" src="/images/carousel-item-01.jpg" width="540" height="460" alt="Carousel item 01" />
+              <img className="transition-opacity duration-300" src="/images/jd.png" width="540" height="460" alt="Carousel item 01" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex flex-grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Learn more</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Visit site</a>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
                   <a className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" href="#0">Creative Services</a>
@@ -59,7 +59,7 @@ function Carousel() {
               <img className="transition-opacity duration-300" src="/images/carousel-item-02.jpg" width="540" height="460" alt="Carousel item 02" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex flex-grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Learn more</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Visit site</a>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
                   <a className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" href="#0">Creative Services</a>
@@ -70,7 +70,7 @@ function Carousel() {
               <img className="transition-opacity duration-300" src="/images/carousel-item-03.jpg" width="540" height="460" alt="Carousel item 03" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex flex-grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Learn more</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Visit site</a>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
                   <a className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" href="#0">Creative Services</a>
@@ -81,7 +81,7 @@ function Carousel() {
               <img className="transition-opacity duration-300" src="/images/carousel-item-04.jpg" width="540" height="460" alt="Carousel item 04" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex flex-grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Learn more</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Visit site</a>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
                   <a className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" href="#0">Creative Services</a>
@@ -92,7 +92,7 @@ function Carousel() {
               <img className="transition-opacity duration-300" src="/images/carousel-item-05.jpg" width="540" height="460" alt="Carousel item 05" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex flex-grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Learn more</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="#0">Visit site</a>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
                   <a className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out" href="#0">Creative Services</a>

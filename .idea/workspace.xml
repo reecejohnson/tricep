@@ -20,116 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab90c95-1219-45e7-8e63-847465d5500c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-grid-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/career-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel-item-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/features-home-bg-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/features-home-element-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/features-top-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hero-bg-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hero-bg-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/iphone-mockup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mockup-image-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-author-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-inner-image-left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/news-inner-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/play-button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team-member-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonial-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonial-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonial-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonial-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/user-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/video-testimonial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/video-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Cta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/FeaturesHome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/HeroHome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/PageIllustration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/PricingTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Stats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/Testimonials.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/additional-styles/range-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/additional-styles/theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/additional-styles/toggle-switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/additional-styles/utility-patterns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/stripe-dash.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/stripe-dash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/FeaturesHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/FeaturesHome.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +87,7 @@
       <workItem from="1616058385873" duration="263000" />
       <workItem from="1616746060354" duration="2929000" />
       <workItem from="1616777150770" duration="850000" />
-      <workItem from="1616828697143" duration="4397000" />
+      <workItem from="1616828697143" duration="10116000" />
     </task>
     <servers />
   </component>
@@ -228,10 +123,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1616830062416" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1616836739951">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1616933834214">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1616836739951" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1616933834214" />
     <state x="690" y="252" width="530" height="496" key="VCS.ChangeListViewerDialog" timestamp="1615886512204">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -240,18 +135,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="222" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1616747240045" />
-    <state x="383" y="298" width="1297" height="502" key="find.popup" timestamp="1616829368567">
+    <state x="383" y="298" width="1297" height="502" key="find.popup" timestamp="1616933409804">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="383" y="298" width="1297" height="502" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616829368567" />
+    <state x="383" y="298" width="1297" height="502" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616933409804" />
     <state x="207" y="222" key="new project wizard" timestamp="1615723417114">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="207" y="222" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1615723417114" />
-    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1616747024548">
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1616922714525">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616747024548" />
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1616922714525" />
     <state x="570" y="380" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1616058126036">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

@@ -40,7 +40,7 @@ function FeaturesHome() {
           </div>
 
           {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+          <div className="md:grid md:grid-cols-12 md:gap-6 mt-20">
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
@@ -115,7 +115,16 @@ function FeaturesHome() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src="/images/stripe-dash.png" alt="Features bg" style={{ maxHeight: '600px'}} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/stripe.png" alt="Element 01" style={{ top: '22%', width: '225px' }} />
+                    <div className="absolute"  data-aos="fade-up" data-aos-delay="300" style={{ left: '-7%', top: '30%', width: '425px' }}>
+                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/payment-notifcation.png" alt="Element 01"  />
+                    </div>
+                    <div className="absolute" data-aos="fade-up" data-aos-delay="600" style={{ left: '-7%', top: '45%', width: '425px' }}>
+                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/payment-notifcation.png" alt="Element 01"  />
+                    </div>
+                    <div className="absolute" data-aos="fade-up" data-aos-delay="900"  style={{ left: '-7%', top: '60%', width: '425px' }}>
+                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/payment-notifcation.png" alt="Element 01" />
+                    </div>
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/jd-fitness.png" alt="Element 01" style={{ top: '-5%', left: '60%', width: '225px' }} />
                     {/*<img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src="/images/features-home-element-02.png" width="500" height="158" alt="Element 02" style={{ top: '39%' }} />*/}
                     {/*<img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src="/images/features-home-element-03.png" width="500" height="167" alt="Element 03" style={{ top: '77%' }} />*/}
                   </div>
@@ -133,10 +142,9 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src="/images/features-home-bg-01.png" width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src="/images/features-home-element-03.png" width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src="/images/features-home-element-02.png" width="500" height="158" alt="Element 02" style={{ top: '40%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/features-home-element-01.png" width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src="/images/checkout.png" alt="Features bg" style={{ maxHeight: '600px'}} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/stripe-invoice.png" alt="Element 01" style={{ left: '55%', top: '-10%', width: '425px' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/gym.png" alt="Element 01" style={{ bottom: '-10%', left: '30%', width: '325px' }} />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -152,10 +160,9 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src="/images/features-home-bg-01.png" width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/features-home-element-01.png" width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src="/images/features-home-element-02.png" width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src="/images/features-home-element-03.png" width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none mt-40 mx-auto rounded" src="/images/subscriptions.png" alt="Features bg" style={{ maxHeight: '400px'}} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/stripe.png" alt="Element 01" style={{ left: '65%', top: '50%', width: '225px' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="/images/gym.png" alt="Element 01" style={{ top: '5%', left: '0%', width: '325px' }} />
                   </div>
                 </Transition>
               </div>
