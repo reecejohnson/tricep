@@ -86,7 +86,7 @@ function Header() {
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
               <li>
-                <a href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Apply now</a>
+                <a href="/apply" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Apply now</a>
               </li>
             </ul>
 

@@ -4,8 +4,25 @@ import Header from "../src/partials/Header";
 import PageIllustration from "../src/partials/PageIllustration";
 import CtaContact from "../src/partials/Cta";
 import Footer from "../src/partials/Footer";
+import {useEffect, useState} from "react";
 
-function Apply() {
+function Apply({ env }) {
+  const [test, setTest] = useState('');
+  useEffect(() => {
+    const url = env === 'local' ? `http://localhost:3005/posts` : 'https://tricep-api.onrender.com/posts';
+    fetch(
+      url,
+      {
+        method: "GET",
+      }
+    )
+      .then(res => res.json())
+      .then(response => {
+        console.log(response)
+        setTest(response[0].content);
+      })
+      .catch(error => console.log(error));
+  }, []);
   return (
     <Layout>
       <Head>
@@ -30,7 +47,7 @@ function Apply() {
 
                 {/* Page header */}
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                  <h1 className="h1 mb-4" data-aos="fade-up">Apply for online coaching</h1>
+                  <h1 className="h1 mb-4" data-aos="fade-up">{test}</h1>
                   <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">We have custom plans to power your business. Tell us your needs, and we’ll contact you shortly.</p>
                 </div>
 
@@ -102,6 +119,12 @@ function Apply() {
       </div>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: { env: process.env.WHERE_WE_AT }
+  }
 }
 
 export default Apply;
