@@ -1,5 +1,5 @@
 {
-  "name": "ptecom",
+  "name": "tricep",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,7 +16,7 @@
     "react-dom": "17.0.1",
     "react-transition-group": "^4.4.1",
     "sass": "^1.32.8",
-    "swiper": "^6.5.0"
+    "swiper": "^6.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",

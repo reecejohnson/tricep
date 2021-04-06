@@ -26,8 +26,8 @@ function Stats() {
             </div>
             {/* 4th item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="300">
-              <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">49K</div>
-              <div className="text-gray-600 dark:text-gray-400">Days turn around</div>
+              <div className="font-red-hat-display text-3xl font-extrabold tracking-tighter mb-1">100%</div>
+              <div className="text-gray-600 dark:text-gray-400">Money back guarantee</div>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">Your online fitness store in 14 days</h1>
+              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down" style={{ fontSize: '3.8rem', lineHeight: '1' }}>Digital stores for online coaches that convert clicks into clients</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Start selling online straight away with a conversion focused fitness ecommerce site.</p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
@@ -28,19 +28,19 @@ function HeroHome() {
               </form>
               <ul className="max-w-sm sm:max-w-md mx-auto md:max-w-none text-gray-600 dark:text-gray-400 mt-8 -mb-2" data-aos="fade-down" data-aos-delay="450">
                 <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-3 h-3 fill-current text-purple-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>Lorem ipsum is placeholder text commonly.</span>
                 </li>
                 <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-3 h-3 fill-current text-purple-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>Excepteur sint occaecat cupidatat.</span>
                 </li>
                 <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-3 h-3 fill-current text-purple-400 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>Lorem ipsum is placeholder text commonly.</span>

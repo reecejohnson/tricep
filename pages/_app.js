@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       startEvent: 'DOMContentLoaded',
-      once: false,
+      once: true,
       disable: 'phone',
       useClassNames: true,
       duration: 600,

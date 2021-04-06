@@ -39,20 +39,21 @@ function Header() {
           <div className="flex-shrink-0 mr-5">
             {/* Logo */}
             <a href="/" className="block" aria-label="Cruip">
-              <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">
-                    <stop stopColor="#3ABAB4" offset="0%" />
-                    <stop stopColor="#7F9CF5" offset="100%" />
-                  </linearGradient>
-                  <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">
-                    <stop stopColor="#3ABAB4" offset="0%" />
-                    <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
-                  </linearGradient>
-                </defs>
-                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)" />
-                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)" />
-              </svg>
+              <img className="h-8" src="/images/tricep-teal.svg"/>
+              {/*<svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">*/}
+              {/*  <defs>*/}
+              {/*    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">*/}
+              {/*      <stop stopColor="#3ABAB4" offset="0%" />*/}
+              {/*      <stop stopColor="#7F9CF5" offset="100%" />*/}
+              {/*    </linearGradient>*/}
+              {/*    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">*/}
+              {/*      <stop stopColor="#3ABAB4" offset="0%" />*/}
+              {/*      <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />*/}
+              {/*    </linearGradient>*/}
+              {/*  </defs>*/}
+              {/*  <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)" />*/}
+              {/*  <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)" />*/}
+              {/*</svg>*/}
             </a>
           </div>
 
@@ -94,23 +95,6 @@ function Header() {
           {/* Mobile menu */}
           <div className="inline-flex md:hidden">
 
-            {/* Mobile lights switch */}
-            <div className="form-switch focus-within:outline-blue flex flex-col justify-center mr-6 -mt-0.5">
-              <input type="checkbox" name="light-switch" id="light-switch-mobile" className="light-switch sr-only"  />
-              <label className="relative" htmlFor="light-switch-mobile">
-                <span className="relative bg-gradient-to-t from-gray-100 to-white dark:from-gray-800 dark:to-gray-700 shadow-sm z-10" aria-hidden="true"></span>
-                <svg className="absolute inset-0" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
-                  <g className="fill-current text-white" fillRule="nonzero" opacity=".88">
-                    <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z" />
-                    <circle cx="32" cy="12" r="3" />
-                    <circle fillOpacity=".4" cx="12" cy="12" r="6" />
-                    <circle fillOpacity=".88" cx="12" cy="12" r="3" />
-                  </g>
-                </svg>
-                <span className="sr-only">Switch to light / dark version</span>
-              </label>
-            </div>
-
             {/* Hamburger button */}
             <button className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
@@ -135,21 +119,6 @@ function Header() {
             >
               <nav id="mobile-nav" ref={mobileNav} className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg">
                 <div className="py-6 pr-4 pl-20">
-                  {/* Logo */}
-                  <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_a">
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop stopColor="#7F9CF5" offset="100%" />
-                      </linearGradient>
-                      <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_b">
-                        <stop stopColor="#3ABAB4" offset="0%" />
-                        <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
-                      </linearGradient>
-                    </defs>
-                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#menulogo_a)" />
-                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#menulogo_b)" />
-                  </svg>
                   {/* Links */}
                   <ul>
                     <li>
