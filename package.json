@@ -16,6 +16,7 @@
     "react-dom": "17.0.1",
     "react-transition-group": "^4.4.1",
     "sass": "^1.32.8",
+    "stripe": "^8.142.0",
     "swiper": "^6.4.1"
   },
   "devDependencies": {

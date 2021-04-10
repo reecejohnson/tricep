@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html className="dark">
-        <Head />
+        <Head>
+          <script src="https://js.stripe.com/v3/" />
+        </Head>
         <body className="font-inter antialiased bg-gray-900 text-gray-200 tracking-tight ring-orange-500">
         <Main />
         <NextScript />
