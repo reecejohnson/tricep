@@ -38,9 +38,8 @@ function Carousel() {
 
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h2 font-red-hat-display mb-4">From rough design files, to powerful products</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400">Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+              <h1 className="h2 font-red-hat-display mb-4">Stores we have already built and scaled</h1>
+              <p className="text-xl text-gray-600 dark:text-gray-400">Online coaches from across the fitness industry have who have taken their offering online with Tricep.</p>
             </div>
 
           </div>
@@ -56,7 +55,7 @@ function Carousel() {
                 <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                   <div className="flex flex-grow">
                     <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>Visit site
+                            onClick={() => setIsModalOpen(true)}>View full site
                     </button>
                   </div>
                   <div className="absolute bottom-0 right-0 p-6">
@@ -72,7 +71,7 @@ function Carousel() {
                 <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                   <div className="flex flex-grow">
                     <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>Visit site
+                            onClick={() => setIsModalOpen(true)}>View full site
                     </button>
                   </div>
                   <div className="absolute bottom-0 right-0 p-6">
@@ -88,7 +87,7 @@ function Carousel() {
                 <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                   <div className="flex flex-grow">
                     <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>Visit site
+                            onClick={() => setIsModalOpen(true)}>View full site
                     </button>
                   </div>
                   <div className="absolute bottom-0 right-0 p-6">

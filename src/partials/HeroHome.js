@@ -15,7 +15,7 @@ function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down" style={{ fontSize: '3.8rem', lineHeight: '1' }}>Digital stores for online coaches that convert clicks into clients</h1>
+              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down" style={{ fontSize: '3.8rem', lineHeight: '1' }}>Digital stores for online coaches that convert clicks into clients.</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Start selling online straight away with a conversion focused fitness ecommerce site.</p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">

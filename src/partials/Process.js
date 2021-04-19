@@ -8,8 +8,8 @@ function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">Build and style every element to perfection</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 font-red-hat-display mb-4">Turning your audience into clients</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-400">From follower to paying customer. Make the process of someone signing up to work with you as frictionless as possible.</p>
           </div>
 
           {/* Glow illustration */}
