@@ -5,7 +5,7 @@ import PageIllustration from "../src/partials/PageIllustration";
 import HeroHome from "../src/partials/HeroHome";
 import Footer from "../src/partials/Footer";
 import Stats from "../src/partials/Stats";
-import Carousel from "../src/partials/Carousel";
+import PreviousWork from "../src/partials/PreviousWork";
 import Tabs from "../src/partials/Tabs";
 import FeaturesHome from "../src/partials/FeaturesHome";
 import Process from "../src/partials/Process";
@@ -38,7 +38,7 @@ export default function Home() {
           {/*  Page sections */}
           <HeroHome />
           <Stats />
-          <Carousel />
+          <PreviousWork />
           <FeaturesHome />
           {/*<Tabs />*/}
           <Process />

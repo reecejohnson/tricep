@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from 'react';
+import copy from '../config/copy';
 // Import Swiper
 import Swiper, {Autoplay, Navigation} from 'swiper';
 import 'swiper/swiper-bundle.css';
 
 Swiper.use([Autoplay, Navigation]);
 
-function Carousel() {
+function PreviousWork() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
@@ -38,24 +39,25 @@ function Carousel() {
 
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h2 font-red-hat-display mb-4">Stores we have already built and scaled</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400">Online coaches from across the fitness industry have who have taken their offering online with Tricep.</p>
+              <h1 className="h2 font-red-hat-display mb-4">{copy.previousWork.heading}</h1>
+              <p className="text-xl text-gray-600 dark:text-gray-400">{copy.previousWork.subheading}</p>
             </div>
 
           </div>
 
-          {/* Carousel built with Swiper.js [https://swiperjs.com/] */}
+          {/* PreviousWork built with Swiper.js [https://swiperjs.com/] */}
           {/* * Custom styles in src/css/additional-styles/theme.scss */}
           <div className="carousel swiper-container">
             <div className="swiper-wrapper">
-              {/* Carousel items */}
+              {/* PreviousWork items */}
               <div className="swiper-slide max-w-lg">
                 <img className="transition-opacity duration-300" src="/images/carousel-item-01.png" width="540"
                      height="460" alt="Carousel item 01"/>
                 <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                   <div className="flex flex-grow">
                     <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>View full site
+                            onClick={() => setIsModalOpen(true)}>
+                      {copy.previousWork.itemButtonText}
                     </button>
                   </div>
                   <div className="absolute bottom-0 right-0 p-6">
@@ -131,4 +133,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default PreviousWork;

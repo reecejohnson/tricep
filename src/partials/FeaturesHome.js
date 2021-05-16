@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition.js';
+import copy from '../config/copy';
 
 function FeaturesHome() {
 
@@ -45,8 +46,8 @@ function FeaturesHome() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 font-red-hat-display  mb-3">Build your income streams</h3>
-                <p className="text-xl text-gray-400">A Tricep store enables you to build your recurring revenue and sell one-off products through first-class payments integrations with Stripe.</p>
+                <h3 className="h3 font-red-hat-display  mb-3">{copy.howItWorks.featureHeading}</h3>
+                <p className="text-xl text-gray-400">{copy.howItWorks.featureSubheading}</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -56,8 +57,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Payment notifications and dashboard</div>
-                    <div className="text-gray-400">Manage and monitor your sales with the Stripe dashboard and mobile app.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">{copy.howItWorks.features[0].heading}</div>
+                    <div className="text-gray-400">{copy.howItWorks.features[0].subheading}</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 text-teal-500 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -71,8 +72,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Sell digital products on autopilot </div>
-                    <div className="text-gray-400">Allow your audience to buy your products without your involvement.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">{copy.howItWorks.features[1].heading} </div>
+                    <div className="text-gray-400">{copy.howItWorks.features[1].subheading}</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 text-teal-500 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -86,8 +87,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Build automatic monthly revenue</div>
-                    <div className="text-gray-400">Generate automatic recurring revenue through subscriptions without having to chase clients.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">{copy.howItWorks.features[2].heading}</div>
+                    <div className="text-gray-400">{copy.howItWorks.features[2].subheading}</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 text-teal-500 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

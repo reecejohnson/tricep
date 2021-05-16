@@ -1,4 +1,5 @@
 import React from 'react';
+import copy from '../config/copy';
 
 function PricingTables() {
   return (
@@ -13,10 +14,8 @@ function PricingTables() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-red-hat-display mb-4 text-gray-100">Online coach store and marketing packages</h2>
-            <p className="text-xl text-gray-400">We’ll build you a professional online store to your requirements,
-              release it, host it, make any changes you want, whenever you want and monitor it 24/7 to ensure it’s
-              working for you. You’ll never be left in the dark again.</p>
+            <h2 className="h2 font-red-hat-display mb-4 text-gray-100">{copy.pricing.heading}</h2>
+            <p className="text-xl text-gray-400">{copy.pricing.subheading}</p>
           </div>
 
           {/* Pricing tables */}
@@ -29,21 +28,18 @@ function PricingTables() {
               data-aos="fade-down">
               <div className="flex-grow mb-4 pb-4">
                 <div className="flex justify-between items-center mb-1">
-                  <div className="text-xl font-bold font-red-hat-display">Managed Online Store</div>
+                  <div className="text-xl font-bold font-red-hat-display">{copy.pricing.packagesOne.heading}</div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4">£</span>
-                  <span className="h3">50</span>
+                  <span className="h3">{copy.pricing.packagesOne.monthlyFee}</span>
                   <span className="font-medium ml-2">/month</span>
                 </div>
                 <div>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £700/Set Up Fee</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £{copy.pricing.packagesOne.setUpFee}/Set Up Fee</span>
                 </div>
                 <hr className="border-teal-600 my-4"/>
-                <div className="text-gray-500 dark:text-gray-400">Get a fully functional online coach store, website
-                  content, images and on site SEO. Then we'll host it, secure it, make any revisions and support you
-                  each month.
-                </div>
+                <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesOne.subheading}</div>
               </div>
               <div className="mt-24">
                 <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
@@ -55,22 +51,18 @@ function PricingTables() {
                  data-aos-delay="150">
               <div className="flex-grow mb-4 pb-4">
                 <div className="flex justify-between items-center mb-1">
-                  <div className="text-xl font-bold font-red-hat-display">Online Store + Local Marketing</div>
+                  <div className="text-xl font-bold font-red-hat-display">{copy.pricing.packagesTwo.heading}</div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4">£</span>
-                  <span className="h3">250</span>
+                  <span className="h3">{copy.pricing.packagesTwo.monthlyFee}</span>
                   <span className="font-medium ml-2">/month</span>
                 </div>
                 <div>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £1000/Set Up Fee</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £{copy.pricing.packagesTwo.setUpFee}/Set Up Fee</span>
                 </div>
                 <hr className="border-teal-600 my-4"/>
-                <div className="text-gray-500 dark:text-gray-400">Everything in the Managed Website package plus local
-                  marketing services so you appear on page one of Google when a client looks for your service in your
-                  area.
-                </div>
-
+                <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesTwo.subheading}</div>
               </div>
               <div className="mt-24">
                 <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
@@ -82,19 +74,18 @@ function PricingTables() {
                  data-aos-delay="300">
               <div className="flex-grow mb-4 pb-4">
                 <div className="flex justify-between items-center mb-1">
-                  <div className="text-xl font-bold font-red-hat-display">Online Store + Niche Marketing </div>
+                  <div className="text-xl font-bold font-red-hat-display">{copy.pricing.packagesThree.heading}</div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4">£</span>
-                  <span className="h3">500</span>
+                  <span className="h3">{copy.pricing.packagesThree.monthlyFee}</span>
                   <span className="font-medium ml-2">/month</span>
                 </div>
                 <div>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £1250/Set Up Fee</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">+ £{copy.pricing.packagesThree.setUpFee}/Set Up Fee</span>
                 </div>
                 <hr className="border-teal-600 my-4"/>
-                <div className="text-gray-500 dark:text-gray-400">Ideal for online coaches who want to dominate a specific niche. We'll create magazine quality content and SEO your site to attract your ideal clients.
-                </div>
+                <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesThree.subheading}</div>
               </div>
               <div className="mt-24">
                 <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
@@ -113,70 +104,16 @@ function PricingTables() {
                 include:
               </div>
               <ul className="text-gray-400 -mb-2 flex-grow">
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Free domains</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Unlimited web pages</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Conversion analytics</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Professional stock images</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>SSL/HTTPS security</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>24/7 support</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Branding</span>
-                </li>
-                <li className="flex items-center mb-2">
-                  <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
-                  </svg>
-                  <span>Technical Updates</span>
-                </li>
+                {copy.pricing.allPackagesInclude.map(item =>
+                  <li className="flex items-center mb-2">
+                    <svg className="w-3 h-3 fill-current text-teal-500 mr-3 flex-shrink-0" viewBox="0 0 12 12"
+                         xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
+                    </svg>
+                    <span>{item}</span>
+                  </li>
+                )}
               </ul>
             </div>
 
