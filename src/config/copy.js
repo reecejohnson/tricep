@@ -12,7 +12,7 @@ export default {
     stats: [
       {number: '14', text: 'Days Turn Around'},
       {number: '10,0000+', text: '£ Sold on Tricep stores'},
-      {number: '5', text: '+ years experience'},
+      {number: '5', text: '+ years industry experience'},
       {number: '100', text: '% Money Back Guarantee'}
     ]
   },
@@ -83,6 +83,7 @@ export default {
     },
     allPackagesInclude: [
       'Free domain',
+      'Fast, secure, reliable hosting',
       'Professional copywriting',
       'Unlimited web pages',
       'Conversion analytics',

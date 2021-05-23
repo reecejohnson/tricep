@@ -15,9 +15,8 @@ function HeroHome() {
           <div className="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
 
             {/* Content */}
-            <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down"
-                  style={{fontSize: '3.8rem', lineHeight: '1'}}>{copy.hero.heading}</h1>
+            <div className="md:col-span-7 lg:col-span-7 md:pr-20 mb-8 md:mb-0 text-center md:text-left">
+              <h1 className="h1 mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">{copy.hero.heading}</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down"
                  data-aos-delay="150">{copy.hero.subheading}</p>
               {/* CTA form */}
@@ -66,18 +65,13 @@ function HeroHome() {
                   </defs>
                 </svg>
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute" src="/images/mockup-image-01.png" width="290" height="624"
-                     style={{maxWidth: '84.33%'}} alt="Features illustration"/>
+                <img className="absolute services-gif" src="/images/mockup-image-01.png"  alt="Features illustration"/>
                 {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none"
-                     src="/images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true"/>
-                {/* Play button */}
-                <a className="absolute group" href="#0" onClick={(e) => {
-                  e.preventDefault();
-                  setVideoModalOpen(true);
-                }} aria-controls="modal">
-                  <img src="/images/play-button.svg" width="96" height="96" alt="Play"/>
-                </a>
+                <img className="home-phone relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none"
+                     src="/images/iphone-mockup.png"  alt="iPhone mockup" aria-hidden="true"/>
+                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-one"  src="/images/payment-notifcation.png" alt="Element 01"  />
+                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification two hsn-two" src="/images/payment-notifcation.png" alt="Element 01"  />
+                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-three" src="/images/payment-notifcation.png" alt="Element 01"  />
               </div>
 
               {/* Modal */}

@@ -10,7 +10,7 @@ function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-3 font-red-hat-display">{copy.testimonials.heading}</h2>
-            <img className="h-10 md:h-14 mb-4 mx-auto" src="/images/tricep-teal.svg"/>
+            <img className="h-10 md:h-12 mb-4 mx-auto" src="/images/tricep-teal.svg"/>
             <p className="text-xl text-gray-400">{copy.testimonials.subheading}</p>
           </div>
 

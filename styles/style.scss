@@ -13,16 +13,80 @@
 
 // Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
 @responsive {
-    .rtl {
-        direction: rtl;
-    }
+  .rtl {
+    direction: rtl;
+  }
 }
 
 // See Alpine.js: https://github.com/alpinejs/alpine#x-cloak
 [x-cloak] {
-    display: none;
+  display: none;
 }
 
 // AOS styles
 $aos-distance: 16px;
 @import 'node_modules/aos/src/sass/aos.scss';
+
+.home-phone {
+  //left: -30%;
+  width: 240.8px;
+  height: 471.8px;
+}
+
+.services-gif {
+  max-width: 84.33%;
+  //left: -22%;
+  width: 203px;
+  height: 436.8px;
+}
+
+.home-stripe-notification {
+  left: 0%
+}
+
+.hsn-one {
+  left: -25%;
+  top:-5%;
+}
+
+.hsn-two {
+  left: -25%;
+  bottom: -5%;
+}
+
+.hsn-three {
+  display: none;
+}
+
+
+@media screen and (min-width: 992px) {
+  .home-phone {
+    //left: -30%;
+    width: 344px;
+    height: 674px;
+  }
+
+  .services-gif {
+    max-width: 84.33%;
+    //left: -22%;
+    width: 290px;
+    height: 624px;
+  }
+
+  .home-stripe-notification {
+    left: -65%
+  }
+
+  .hsn-one {
+    top: 10%;
+  }
+
+  .hsn-two {
+    top: 20%;
+  }
+
+  .hsn-three {
+    top: 30%;
+  }
+}
+

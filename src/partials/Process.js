@@ -48,8 +48,8 @@ function Process() {
               <div className="inline-flex flex-col relative justify-center items-center">
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/source-one.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/source-two.png" width="344" height="674" style={{ marginTop: '-132px'}} alt="iPhone mockup" aria-hidden="true" />
+                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/source-one.png" width="275.2" height="539.2" alt="iPhone mockup" aria-hidden="true" />
+                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/source-two.png" width="275.2" height="539.2" style={{ marginTop: '-132px'}} alt="iPhone mockup" aria-hidden="true" />
               </div>
             </div>
 
@@ -68,7 +68,7 @@ function Process() {
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 <img className="absolute" src="/images/mockup-image-03.png" width="290" height="624" style={{ maxWidth: '84.33%' }} alt="App screen 03" />
                 {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/iphone-mockup.png" width="275.2" height="539.2" alt="iPhone mockup" aria-hidden="true" />
               </div>
             </div>
 
@@ -82,7 +82,7 @@ function Process() {
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 <img className="absolute" src="/images/mockup-image-04.png" width="290" height="624" style={{ maxWidth: '84.33%' }} alt="App screen 04" />
                 {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+                <img className="relative max-w-full mx-auto h-auto pointer-events-none" src="/images/iphone-mockup.png" width="275.2" height="539.2" alt="iPhone mockup" aria-hidden="true" />
               </div>
             </div>
 
