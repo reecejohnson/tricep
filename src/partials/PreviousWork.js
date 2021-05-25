@@ -6,8 +6,7 @@ import 'swiper/swiper-bundle.css';
 
 Swiper.use([Autoplay, Navigation]);
 
-function PreviousWork() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+function PreviousWork({ setIsModalOpen }) {
 
   useEffect(() => {
     // eslint-disable-next-line no-unused-vars
@@ -28,8 +27,17 @@ function PreviousWork() {
     })
   }, [])
 
+  const previousWorkItems = [
+    {image: '/images/carousel-item-02.png'},
+    {image: '/images/hk-fitness.png'},
+    {image: '/images/carousel-item-03.png'},
+    {image: '/images/carousel-item-01.png'},
+  ]
+
   return (
     <>
+
+
       <div className="fixed pin z-50 overflow-auto bg-black flex h-screen w-full">
       </div>
       <section className="border-t border-transparent dark:border-gray-800">
@@ -49,57 +57,21 @@ function PreviousWork() {
           {/* * Custom styles in src/css/additional-styles/theme.scss */}
           <div className="carousel swiper-container">
             <div className="swiper-wrapper">
-              {/* PreviousWork items */}
-              <div className="swiper-slide max-w-lg">
-                <img className="transition-opacity duration-300" src="/images/carousel-item-01.png" width="540"
-                     height="460" alt="Carousel item 01"/>
-                <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
-                  <div className="flex flex-grow">
-                    <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>
-                      {copy.previousWork.itemButtonText}
-                    </button>
-                  </div>
-                  <div className="absolute bottom-0 right-0 p-6">
-                    <a
-                      className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out"
-                      href="#0">Creative Services</a>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide max-w-lg">
-                <img className="transition-opacity duration-300" src="/images/carousel-item-02.png" width="540"
-                     height="460" alt="Carousel item 02"/>
-                <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
-                  <div className="flex flex-grow">
-                    <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>View full site
-                    </button>
-                  </div>
-                  <div className="absolute bottom-0 right-0 p-6">
-                    <a
-                      className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out"
-                      href="#0">Creative Services</a>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide max-w-lg">
-                <img className="transition-opacity duration-300" src="/images/carousel-item-03.png" width="540"
-                     height="460" alt="Carousel item 03"/>
-                <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
-                  <div className="flex flex-grow">
-                    <button className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center"
-                            onClick={() => setIsModalOpen(true)}>View full site
-                    </button>
-                  </div>
-                  <div className="absolute bottom-0 right-0 p-6">
-                    <a
-                      className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out"
-                      href="#0">Creative Services</a>
-                  </div>
-                </div>
-              </div>
+              {previousWorkItems.map(item => (
+                <div className="swiper-slide max-w-lg">
+                  <img className="transition-opacity duration-300" src={item.image} width="540"
+                       height="460" alt="Carousel item 01"/>
+                  <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
 
+                    <div className="absolute bottom-0 right-0 p-6">
+                      <button
+                        onClick={() => setIsModalOpen(true)}
+                        className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out"
+                        href="#0">{copy.previousWork.itemButtonText}</button>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 

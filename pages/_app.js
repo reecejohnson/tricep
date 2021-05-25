@@ -1,4 +1,8 @@
 import '../styles/style.scss'
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
 
 import AOS from 'aos';
 import {useEffect} from "react";

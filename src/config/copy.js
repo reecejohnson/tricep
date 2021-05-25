@@ -1,6 +1,6 @@
 export default {
   hero: {
-    heading: 'Digital stores for online coaches that convert followers into clients.',
+    heading: 'Digital stores for online coaches that convert followers into clients',
     subheading: 'Online coach e-commerce website design, management and marketing for those ready to take their business to the next level.',
     placeholderText: 'Email address',
     buttonText: 'Book a call today',
@@ -45,8 +45,20 @@ export default {
   },
 
   customerProcess: {
-    heading: 'Turn your audience into clients.',
+    heading: 'Turn your audience into clients',
     subheading: 'An automated sales process that nurtures prospective clients with all the information they need in order to purchase your service.',
+    one: {
+      title: 'Drive Traffic',
+      subtitle: 'Send people to your store from social accounts and search engines.'
+    },
+    two: {
+      title: 'Educate & Convince',
+      subtitle: 'Convert a high number of views into clients through positioning yourself as the expert.'
+    },
+    three: {
+      title: 'Profit',
+      subtitle: `Client's enroll into your service automatically, you get paid.`
+    }
   },
 
   testimonials: {

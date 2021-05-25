@@ -50,7 +50,7 @@ $aos-distance: 16px;
 }
 
 .hsn-two {
-  left: -25%;
+  left: 25%;
   bottom: -5%;
 }
 
@@ -88,5 +88,16 @@ $aos-distance: 16px;
   .hsn-three {
     top: 30%;
   }
+}
+
+.modal {
+  z-index: 99;
+}
+
+.modal-image {
+  z-index: 100;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 80%;
 }
 

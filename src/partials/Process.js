@@ -2,6 +2,9 @@ import React from 'react';
 import copy from '../config/copy';
 
 function Process() {
+
+  const { customerProcess: { heading, subheading, one, two, three }} = copy;
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -9,8 +12,8 @@ function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">{copy.customerProcess.heading}</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400">{copy.customerProcess.subheading}</p>
+            <h2 className="h2 font-red-hat-display mb-4">{heading}</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-400">{subheading}</p>
           </div>
 
           {/* Glow illustration */}
@@ -42,8 +45,8 @@ function Process() {
               </div>
               {/* Number */}
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium">1</div>
-              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-lg text-center">Drive traffic</p>
-              <p className="mt-2 mb-8 text-gray-400 tracking-tight mb-1 text-center">Send people to your store from social accounts and search engines.</p>
+              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-lg text-center">{one.title}</p>
+              <p className="mt-2 mb-8 text-gray-400 tracking-tight mb-1 text-center">{one.subtitle}</p>
               {/* Mobile mockup */}
               <div className="inline-flex flex-col relative justify-center items-center">
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
@@ -61,8 +64,8 @@ function Process() {
               </div>
               {/* Number */}
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium">2</div>
-              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-center">Educate & Convince</p>
-              <p className="mt-2 mb-8 text-gray-400  tracking-tight mb-1 text-center">Convert a high number of views into clients through positioning yourself as the expert.</p>
+              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-center">{two.title}</p>
+              <p className="mt-2 mb-8 text-gray-400  tracking-tight mb-1 text-center">{two.subtitle}</p>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
@@ -75,8 +78,8 @@ function Process() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center">
               <div className="w-12 h-12 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium">3</div>
-              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-lg text-center">Profit</p>
-              <p className="mt-2 mb-8 text-gray-400  tracking-tight mb-1 text-center">Client's enroll into your service automatically, you get paid.</p>
+              <p className="mt-4 text-xl font-bold leading-snug tracking-tight mb-1 text-lg text-center">{three.title}</p>
+              <p className="mt-2 mb-8 text-gray-400  tracking-tight mb-1 text-center">{three.subtitle}</p>
               {/* Mobile mockup */}
               <div className="inline-flex relative justify-center items-center">
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
