@@ -96,8 +96,13 @@ $aos-distance: 16px;
 
 .modal-image {
   z-index: 100;
-  left: 50%;
-  transform: translate(-50%, 0);
-  max-width: 80%;
 }
 
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

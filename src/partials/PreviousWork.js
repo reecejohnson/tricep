@@ -6,7 +6,34 @@ import 'swiper/swiper-bundle.css';
 
 Swiper.use([Autoplay, Navigation]);
 
-function PreviousWork({ setIsModalOpen }) {
+function PreviousWork() {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState(undefined);
+
+  console.log(isModalOpen)
+
+  function handleModalOpen(modalImage) {
+    toggleModal();
+    setModalImage(modalImage);
+    setIsModalOpen(true);
+  }
+
+  function handleModalClose() {
+    toggleModal();
+    setModalImage(undefined);
+    setIsModalOpen(false);
+  }
+
+  function toggleModal() {
+    const body = document.querySelector('body')
+    const modal = document.querySelector('.modal')
+    const modalContainer = document.querySelector('.modal-container');
+    modalContainer.scrollTop = 0;
+    modal.classList.toggle('opacity-0')
+    modal.classList.toggle('pointer-events-none')
+    body.classList.toggle('modal-active')
+  }
 
   useEffect(() => {
     // eslint-disable-next-line no-unused-vars
@@ -14,6 +41,7 @@ function PreviousWork({ setIsModalOpen }) {
       slidesPerView: 'auto',
       grabCursor: true,
       loop: true,
+      slideToClickedSlide: true,
       centeredSlides: true,
       initialSlide: 1,
       spaceBetween: 24,
@@ -28,16 +56,31 @@ function PreviousWork({ setIsModalOpen }) {
   }, [])
 
   const previousWorkItems = [
-    {image: '/images/carousel-item-02.png'},
-    {image: '/images/hk-fitness.png'},
-    {image: '/images/carousel-item-03.png'},
-    {image: '/images/carousel-item-01.png'},
+    {image: '/images/carousel-item-02.png', fullImage: '/images/domin8-full.png'},
+    {image: '/images/hk-fitness.png', fullImage: '/images/hk-full.png'},
+    {image: '/images/carousel-item-03.png', fullImage: '/images/nutreetion-full.png'},
+    {image: '/images/carousel-item-01.png', fullImage: '/images/jd-full.png'},
   ]
 
   return (
     <>
+      {/*<div className="modal-container">*/}
+      {/*  /!*<div className={`${isModalOpen ? '' : 'hidden'} modal flex items-center justify-center flex-col p-6`}>*!/*/}
+      {/*    <button className={`${isModalOpen ? '' : 'hidden'} modal fixed inset-0 bg-gray-900 transition-opacity opacity-75 modal h-full w-full`} onClick={() => handleModalClose()}*/}
+      {/*            aria-hidden="true">*/}
+      {/*      <img src="/images/nutreetion-full.png" className="modal-image"/>*/}
+      {/*    </button>*/}
+      {/*  /!*</div>*!/*/}
+      {/*</div>*/}
+      <div
+        className="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
+        <div className="modal-overlay absolute w-full h-full bg-gray-900 opacity-75"/>
 
-
+        <div onClick={() => handleModalClose()}
+             className="modal-container fixed w-full h-full z-50 overflow-y-auto">
+          <img src={modalImage} className="modal-image px-6 py-10 md:w-3/4 mx-auto"/>
+        </div>
+      </div>
       <div className="fixed pin z-50 overflow-auto bg-black flex h-screen w-full">
       </div>
       <section className="border-t border-transparent dark:border-gray-800">
@@ -65,7 +108,7 @@ function PreviousWork({ setIsModalOpen }) {
 
                     <div className="absolute bottom-0 right-0 p-6">
                       <button
-                        onClick={() => setIsModalOpen(true)}
+                        onClick={() => handleModalOpen(item.fullImage)}
                         className="text-xs font-medium text-center text-white py-2 px-3 rounded-full bg-gray-900 bg-opacity-50 hover:bg-opacity-100 transition duration-150 ease-in-out"
                         href="#0">{copy.previousWork.itemButtonText}</button>
                     </div>

@@ -4,7 +4,6 @@ import copy from '../config/copy';
 
 function HeroHome() {
 
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
     <section>
@@ -73,15 +72,6 @@ function HeroHome() {
                 <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification two hsn-two" src="/images/payment-notifcation.png" alt="Element 01"  />
                 <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-three" src="/images/payment-notifcation.png" alt="Element 01"  />
               </div>
-
-              {/* Modal */}
-              <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen}
-                     handleClose={() => setVideoModalOpen(false)}>
-                <div className="relative pb-9/16">
-                  <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812"
-                          title="Video" allowFullScreen></iframe>
-                </div>
-              </Modal>
 
             </div>
 

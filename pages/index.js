@@ -16,30 +16,8 @@ import React, {useState} from "react";
 
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  if (isModalOpen) {
-    return (
-      <>
-        <button className={`hamburger active`} aria-controls="mobile-nav" aria-expanded={isModalOpen} onClick={() => setIsModalOpen(false)}>
-          <span className="sr-only">Menu</span>
-          <svg className="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <rect y="4" width="24" height="2" rx="1" />
-            <rect y="11" width="24" height="2" rx="1" />
-            <rect y="18" width="24" height="2" rx="1" />
-          </svg>
-        </button>
-        <img src="/images/nutreetion-full.png" className="absolute modal-image mx-20 my-16"/>
-        <button onClick={() => setIsModalOpen(false)}
-                className="fixed inset-0 bg-gray-900 transition-opacity modal h-full w-full"
-                aria-hidden="true"/>
-      </>
-    )
-  }
 
   return (
-
-
     <Layout>
       <Head>
         <title>Personal Training Ecommerce</title>
@@ -62,7 +40,7 @@ export default function Home() {
           {/*  Page sections */}
           <HeroHome/>
           <Stats/>
-          <PreviousWork setIsModalOpen={setIsModalOpen}/>
+          <PreviousWork/>
           <FeaturesHome/>
           {/*<Tabs />*/}
           <Process/>
