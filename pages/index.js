@@ -6,13 +6,13 @@ import HeroHome from "../src/partials/HeroHome";
 import Footer from "../src/partials/Footer";
 import Stats from "../src/partials/Stats";
 import PreviousWork from "../src/partials/PreviousWork";
-import Tabs from "../src/partials/Tabs";
 import FeaturesHome from "../src/partials/FeaturesHome";
 import Process from "../src/partials/Process";
 import Testimonials from "../src/partials/Testimonials";
 import PricingTables from "../src/partials/PricingTables";
 import Cta from "../src/partials/Cta";
-import React, {useState} from "react";
+import React from "react";
+import FeaturesZigzag from "../src/partials/FeaturesZigzag";
 
 
 export default function Home() {
@@ -40,10 +40,13 @@ export default function Home() {
           {/*  Page sections */}
           <HeroHome/>
           <Stats/>
-          <PreviousWork/>
-          <FeaturesHome/>
-          {/*<Tabs />*/}
+          <FeaturesZigzag />
           <Process/>
+
+          <PreviousWork/>
+
+          {/*<FeaturesHome/>*/}
+          {/*<Tabs />*/}
           <Testimonials/>
           <PricingTables/>
           {/*<TestimonialsBlocks />*/}

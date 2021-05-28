@@ -23,13 +23,34 @@ export default {
     itemButtonText: 'View full site'
   },
 
-  howItWorks: {
-    heading: 'Start selling online in 14 days.',
-    subheading: 'We will handcraft your online store, optimising for conversions, with minimal input from you.',
+  features: {
+    heading: <span>Overwhelmed by all the tools out there? <br/> Let Tricep handle it for you.</span>,
+    subheading: `It's easier than ever to build an online store but harder than ever to grow it. If you're sending people into your online space, it's essential you maximise those that convert into clients to generate reliable income for your business. `,
     featureHeading: 'Build your income streams',
     featureSubheading: 'A Tricep store enables you to build your recurring revenue and sell one-off products through first-class payments integrations with Stripe.',
     features: [
       {
+        preHeading: 'No technical or marketing skills required.',
+        heading: 'Have experts build, manage and support your online store',
+        subheading: 'Forget website builders, struggling to word your content and stressing over technical issues. Your store is custom built to your exact requirements and maintained for you. Never worry about your store breaking again.',
+        items: [
+          'Completely hands off / done for you service',
+          'Unlimited updates to your store at anytime',
+          'Sell and market your services online stress free'
+        ]
+      },
+      {
+        preHeading: 'Same amount of traffic. More clients.',
+        heading: 'Sell on auto-pilot with conversion focused landing pages',
+        subheading: 'Selling your products/services online is an art and a science. We build high-converting landing pages that generate a consistent flow of leads of sales for your business.',
+        items: [
+          'Designed to convert strangers into clients',
+          'Positioning yourself as the expert',
+          ''
+        ]
+      },
+      {
+        preHeading: 'More results. Less worry.',
         heading: 'Payment notifications and dashboard',
         subheading: 'Manage and monitor your sales with the Stripe dashboard and mobile app.'
       },
@@ -46,7 +67,8 @@ export default {
 
   customerProcess: {
     heading: 'Turn your audience into clients',
-    subheading: 'An automated sales process that nurtures prospective clients with all the information they need in order to purchase your service.',
+    subheading: 'A repeatable system to continuously turn your following into paying clients through an automated sales process.',
+    //subheading: 'An automated sales process that nurtures prospective clients with all the information they need in order to purchase your service.',
     one: {
       title: 'Drive Traffic',
       subtitle: 'Send people to your store from social accounts and search engines.'
@@ -65,10 +87,18 @@ export default {
     heading: 'What our clients say about',
     subheading: 'We build and manage beautiful, high converting, online stores for our clients. Here’s what they have to say about their store.',
     testimonials: [
-      { name: 'Dominic Butler', relationship: 'Client', quote: 'Quote coming soon' },
-      { name: 'Hugo Kram', relationship: 'Client', quote: 'Quote coming soon' },
-      { name: 'Kamel KB', relationship: 'Client', quote: 'I now have a 24/7 online store that automatically processes single and recurring payments whilst allowing me to manage everything easily.' },,
-      { name: 'Joe Delaney', relationship: 'Client', quote: 'Everything was taken care of from start to finish. A smooth process.' }
+      {name: 'Dominic Butler', relationship: 'Client', quote: 'Quote coming soon'},
+      {name: 'Hugo Kram', relationship: 'Client', quote: 'Quote coming soon'},
+      {
+        name: 'Kamel KB',
+        relationship: 'Client',
+        quote: 'I now have a 24/7 online store that automatically processes single and recurring payments whilst allowing me to manage everything easily.'
+      }, ,
+      {
+        name: 'Joe Delaney',
+        relationship: 'Client',
+        quote: 'Everything was taken care of from start to finish. A smooth process.'
+      }
     ]
   },
 

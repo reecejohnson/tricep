@@ -56,7 +56,7 @@ function PreviousWork() {
   }, [])
 
   const previousWorkItems = [
-    {image: '/images/carousel-item-02.png', fullImage: '/images/domin8-full.png'},
+    {image: '/images/carousel-item-02.png', fullImage: '/images/domin8-full.jpg'},
     {image: '/images/hk-fitness.png', fullImage: '/images/hk-full.png'},
     {image: '/images/carousel-item-03.png', fullImage: '/images/nutreetion-full.png'},
     {image: '/images/carousel-item-01.png', fullImage: '/images/jd-full.png'},
