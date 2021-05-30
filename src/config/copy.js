@@ -18,13 +18,13 @@ export default {
   },
 
   previousWork: {
-    heading: 'Stores we have already built and scaled',
-    subheading: 'Online coaches from across the fitness industry have who have taken their offering online with Tricep.',
+    heading: 'Online coaches who have grown their brand with us',
+    subheading: 'Fitness professionals from across the industry have used Tricep to take their offering online, build their client base and maximise the traffic they send to their stores.',
     itemButtonText: 'View full site'
   },
 
   features: {
-    heading: <span>Overwhelmed by all the tools out there? <br/> Let Tricep handle it for you.</span>,
+    heading: 'Building your customer journey from awareness to purchase.',
     subheading: `It's easier than ever to build an online store but harder than ever to grow it. If you're sending people into your online space, it's essential you maximise those that convert into clients to generate reliable income for your business. `,
     featureHeading: 'Build your income streams',
     featureSubheading: 'A Tricep store enables you to build your recurring revenue and sell one-off products through first-class payments integrations with Stripe.',
@@ -42,17 +42,32 @@ export default {
       {
         preHeading: 'Same amount of traffic. More clients.',
         heading: 'Sell on auto-pilot with conversion focused landing pages',
-        subheading: 'Selling your products/services online is an art and a science. We build high-converting landing pages that generate a consistent flow of leads of sales for your business.',
+        subheading: 'Selling your products/services online is an art and a science. We build high-converting landing pages that generate a consistent flow of sales for your business. All you need is traffic.',
         items: [
           'Designed to convert strangers into clients',
           'Positioning yourself as the expert',
-          ''
+          'Repeatable and scalable sales system'
         ]
       },
       {
-        preHeading: 'More results. Less worry.',
-        heading: 'Payment notifications and dashboard',
-        subheading: 'Manage and monitor your sales with the Stripe dashboard and mobile app.'
+        preHeading: 'Capture leads. Build your email list.',
+        heading: `Build trust and authority with customers who aren't ready yet`,
+        subheading: 'Lead magnets capture customer information in exchange for some free value that positions yourself as the authority on a topic. These leads can be nurtured through your funnel into paying clients.',
+        items: [
+          'Increase awareness and trust of your brand',
+          'Build a strong email list of hot leads',
+          `Don't loose out on customers who aren't ready`,
+        ]
+      },
+      {
+        preHeading: 'Everyday can be payday.',
+        heading: 'Get paid on your terms & manage your payments',
+        subheading: 'Give your clients financial peace of mind with secure and trusted payments. From one-time payments to automatically charging monthly subscriptions, branded customer receipts and invoices, Tricep does it all.',
+        items: [
+          'Instant payment notifications for iOS and Android',
+          'Automatically charge clients monthly or one-time',
+          'Full payment dashboard (MRR, Gross, Net)',
+        ]
       },
       {
         heading: 'Sell digital products on autopilot',
@@ -66,7 +81,7 @@ export default {
   },
 
   customerProcess: {
-    heading: 'Turn your audience into clients',
+    heading: 'The process of converting your audience into clients',
     subheading: 'A repeatable system to continuously turn your following into paying clients through an automated sales process.',
     //subheading: 'An automated sales process that nurtures prospective clients with all the information they need in order to purchase your service.',
     one: {

@@ -1,7 +1,7 @@
 import React from "react";
 
 const DoneForYou = () => {
-  return (<div className="max-w-3xl mx-auto">
+  return (<div className="max-w-xs md:max-w-3xl mx-auto">
     <div className="relative flex justify-center items-center overflow-hidden">
 
       {/* Big circle behind: light layout */}
