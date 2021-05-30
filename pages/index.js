@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Personal Training Ecommerce</title>
+        <title>Online Coach Stores & Marketing | Tricep</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 

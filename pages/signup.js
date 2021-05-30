@@ -4,7 +4,7 @@ import Header from "../src/partials/Header";
 import PageIllustration from "../src/partials/PageIllustration";
 import CtaContact from "../src/partials/Cta";
 import Footer from "../src/partials/Footer";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import Checkout from "../src/utils/Checkout";
 
 function SignUp({ env }) {
@@ -33,7 +33,7 @@ function SignUp({ env }) {
   return (
     <Layout>
       <Head>
-        <title>Personal Training Ecommerce</title>
+        <title>Online Stores for Online Coaches | Tricep</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

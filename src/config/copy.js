@@ -51,7 +51,7 @@ export default {
       },
       {
         preHeading: 'Capture leads. Build your email list.',
-        heading: `Build trust and authority with customers who aren't ready yet`,
+        heading: `Build trust and authority with customers using lead magnets`,
         subheading: 'Lead magnets capture customer information in exchange for some free value that positions yourself as the authority on a topic. These leads can be nurtured through your funnel into paying clients.',
         items: [
           'Increase awareness and trust of your brand',
