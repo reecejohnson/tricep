@@ -18,13 +18,13 @@ export default {
   },
 
   previousWork: {
-    heading: 'Online coaches who have grown their brand with us',
-    subheading: 'Fitness professionals from across the industry have used Tricep to take their offering online, build their client base and maximise the traffic they send to their stores.',
+    heading: 'Online coach stores that Tricep have built to maximise traffic',
+    subheading: `Examples of stores that convert audiences of online coaches into clients. Designed, built, optimised and managed by Tricep.`,
     itemButtonText: 'View full site'
   },
 
   features: {
-    heading: 'Building your customer journey from awareness to purchase.',
+    heading: 'From total stranger to loyal client. Tricep builds your customer journey.',
     subheading: `It's easier than ever to build an online store but harder than ever to grow it. If you're sending people into your online space, it's essential you maximise those that convert into clients to generate reliable income for your business. `,
     featureHeading: 'Build your income streams',
     featureSubheading: 'A Tricep store enables you to build your recurring revenue and sell one-off products through first-class payments integrations with Stripe.',
@@ -41,18 +41,29 @@ export default {
       },
       {
         preHeading: 'Same amount of traffic. More clients.',
-        heading: 'Sell on auto-pilot with conversion focused landing pages',
-        subheading: 'Selling your products/services online is an art and a science. We build high-converting landing pages that generate a consistent flow of sales for your business. All you need is traffic.',
+        heading: 'Achieve a higher % of visitors to your store turning into clients',
+        subheading: 'Selling your products/services online is an art and a science. We build high-converting landing pages and product stores that generate a consistent flow of sales for your business. All you need is traffic.',
         items: [
           'Designed to convert strangers into clients',
           'Positioning yourself as the expert',
           'Repeatable and scalable sales system'
         ]
       },
+
       {
-        preHeading: 'Capture leads. Build your email list.',
-        heading: `Build trust and authority with customers using lead magnets`,
-        subheading: 'Lead magnets capture customer information in exchange for some free value that positions yourself as the authority on a topic. These leads can be nurtured through your funnel into paying clients.',
+        preHeading: 'Less sales conversations, more clients.',
+        heading: `Automate, standardise and improve your sales process`,
+        subheading: `Instead of you personally explaining your services to each client, we distil this information on pages in your store. You store then works 24/7 as your salesperson, automatically educating and convincing potential clients to work with you. Giving you more time for your clients.`,
+        items: [
+          'Clients choose you, without your direct involvement',
+          `Your services perfectly explained, every time`,
+          `Sell to big audiences at scale with no stress`,
+        ]
+      },
+      {
+        preHeading: 'Get attention. Capture leads.',
+        heading: `For those who aren't ready to buy, offer them free value in exchange for their details`,
+        subheading: `A large percentage of your traffic won't be ready to buy from you straight away. It's vital that these potential clients are offered some free information in exchange for their details. You prove your expertise and authority in your niche whilst positioning your service as the next logical step in their journey.`,
         items: [
           'Increase awareness and trust of your brand',
           'Build a strong email list of hot leads',
@@ -70,8 +81,14 @@ export default {
         ]
       },
       {
-        heading: 'Sell digital products on autopilot',
-        subheading: 'Allow your audience to buy your products without your involvement.'
+        preHeading: 'Get attention. Capture leads.',
+        heading: `Be a recognised by your audience as an expert in your niche`,
+        subheading: 'Captivating lead magnets bring potential clients into your world. Then capture customer information in exchange for some free value that positions yourself as the authority on a topic. These leads can be nurtured through your funnel into paying clients.',
+        items: [
+          'Increase awareness and trust of your brand',
+          'Build a strong email list of hot leads',
+          `Don't loose out on customers who aren't ready`,
+        ]
       },
       {
         heading: 'Build automatic monthly revenue',
@@ -85,16 +102,16 @@ export default {
     subheading: 'A repeatable system to continuously turn your following into paying clients through an automated sales process.',
     //subheading: 'An automated sales process that nurtures prospective clients with all the information they need in order to purchase your service.',
     one: {
-      title: 'Drive Traffic',
-      subtitle: 'Send people to your store from social accounts and search engines.'
+      title: 'Send Traffic',
+      subtitle: 'Drive people to your store from social accounts, search engines or paid ads.'
     },
     two: {
       title: 'Educate & Convince',
-      subtitle: 'Convert a high number of views into clients through positioning yourself as the expert.'
+      subtitle: 'Convert a high % of page views into clients through positioning yourself as the expert.'
     },
     three: {
       title: 'Profit',
-      subtitle: `Client's enroll into your service automatically, you get paid.`
+      subtitle: `Client's enroll into your service or purchase your products automatically, you get paid.`
     }
   },
 
@@ -150,6 +167,7 @@ export default {
       'Branding',
       'Technical Updates',
       '100% money back guarantee',
+      'Full website ownership'
     ]
   },
 
