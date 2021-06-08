@@ -3,7 +3,7 @@ export default {
     heading: 'Digital stores for online coaches that convert followers into clients',
     subheading: 'Online coach e-commerce website design, management and marketing for those ready to take their business to the next level.',
     placeholderText: 'Email address',
-    buttonText: 'Book a call today',
+    buttonText: 'Apply now',
     bullets: [
       'Professionally designed store by experts in the industry.',
       'Maximise traffic sent to your site with high-converting pages.',
@@ -11,7 +11,7 @@ export default {
     ],
     stats: [
       {number: '14', text: 'Days Turn Around'},
-      {number: '10,0000+', text: '£ Sold on Tricep stores'},
+      {number: '100000+', text: '£ Sold on Tricep stores'},
       {number: '5', text: '+ years industry experience'},
       {number: '100', text: '% Money Back Guarantee'}
     ]

@@ -1,7 +1,15 @@
 import React from 'react';
 import copy from '../config/copy';
+import {useRouter} from "next/router";
 
 function PricingTables() {
+  const router = useRouter()
+
+  const handleApply = async (e) => {
+    const packageValue = e.target.dataset.package;
+    await router.push(`/apply?p=${packageValue}`);
+  }
+
   return (
     <section className="relative bg-gray-900 border-t border-transparent dark:border-gray-800">
       {/* Background gradient (dark version only) */}
@@ -42,7 +50,7 @@ function PricingTables() {
                 <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesOne.subheading}</div>
               </div>
               <div className="mt-24">
-                <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
+                <button className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" data-package="managed" onClick={handleApply}>Apply now</button>
               </div>
             </div>
 
@@ -65,7 +73,7 @@ function PricingTables() {
                 <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesTwo.subheading}</div>
               </div>
               <div className="mt-24">
-                <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
+                <button className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" data-package="local" onClick={handleApply}>Apply now</button>
               </div>
             </div>
 
@@ -88,7 +96,7 @@ function PricingTables() {
                 <div className="text-gray-500 dark:text-gray-400">{copy.pricing.packagesThree.subheading}</div>
               </div>
               <div className="mt-24">
-                <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Book a Call</a>
+                <button className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" data-package="niche" onClick={handleApply}>Apply now</button>
               </div>
             </div>
 

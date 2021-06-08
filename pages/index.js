@@ -51,7 +51,7 @@ export default function Home() {
           <PricingTables/>
           {/*<TestimonialsBlocks />*/}
           {/*<FeaturesBlocks />*/}
-          <Cta/>
+          {/*<Cta/>*/}
 
         </main>
 

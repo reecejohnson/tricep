@@ -62,25 +62,25 @@ function Header() {
 
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap items-center font-medium">
-              <li>
-                <a href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">About</a>
-              </li>
-              <li>
-                <a href="/blog" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>
-              </li>
-              <li>
-                <a href="/testimonials" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Testimonials</a>
-              </li>
-              {/* 1st level: hover */}
-              <Dropdown title="Resources">
-                {/* 2nd level: hover */}
-                <li>
-                  <a href="/help" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">Help center</a>
-                </li>
-                <li>
-                  <a href="/404" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">404</a>
-                </li>
-              </Dropdown>
+              {/*<li>*/}
+              {/*  <a href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">About</a>*/}
+              {/*</li>*/}
+              {/*<li>*/}
+              {/*  <a href="/blog" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>*/}
+              {/*</li>*/}
+              {/*<li>*/}
+              {/*  <a href="/testimonials" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Testimonials</a>*/}
+              {/*</li>*/}
+              {/*/!* 1st level: hover *!/*/}
+              {/*<Dropdown title="Resources">*/}
+              {/*  /!* 2nd level: hover *!/*/}
+              {/*  <li>*/}
+              {/*    <a href="/help" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">Help center</a>*/}
+              {/*  </li>*/}
+              {/*  <li>*/}
+              {/*    <a href="/404" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">404</a>*/}
+              {/*  </li>*/}
+              {/*</Dropdown>*/}
             </ul>
 
             {/* Desktop CTA on the right */}
@@ -120,31 +120,31 @@ function Header() {
               <nav id="mobile-nav" ref={mobileNav} className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg">
                 <div className="py-6 pr-4 pl-20">
                   {/* Links */}
-                  <ul>
-                    <li>
-                      <a href="/about" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">About</a>
-                    </li>
-                    <li>
-                      <a href="/blog" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Blog</a>
-                    </li>
-                    <li>
-                      <a href="/testimonials" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Testimonials</a>
-                    </li>
-                    <li className="py-2 my-2 border-t border-b border-gray-200 dark:border-gray-800">
-                      <span className="flex text-gray-600 dark:text-gray-400 py-2">Resources</span>
-                      <ul className="pl-4">
-                        <li>
-                          <a href="/help" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2">Help center</a>
-                        </li>
-                        <li>
-                          <a href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2">404</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="/contact" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out">Request code</a>
-                    </li>
-                  </ul>
+                  {/*<ul>*/}
+                  {/*  <li>*/}
+                  {/*    <a href="/about" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">About</a>*/}
+                  {/*  </li>*/}
+                  {/*  <li>*/}
+                  {/*    <a href="/blog" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Blog</a>*/}
+                  {/*  </li>*/}
+                  {/*  <li>*/}
+                  {/*    <a href="/testimonials" className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2">Testimonials</a>*/}
+                  {/*  </li>*/}
+                  {/*  <li className="py-2 my-2 border-t border-b border-gray-200 dark:border-gray-800">*/}
+                  {/*    <span className="flex text-gray-600 dark:text-gray-400 py-2">Resources</span>*/}
+                  {/*    <ul className="pl-4">*/}
+                  {/*      <li>*/}
+                  {/*        <a href="/help" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2">Help center</a>*/}
+                  {/*      </li>*/}
+                  {/*      <li>*/}
+                  {/*        <a href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2">404</a>*/}
+                  {/*      </li>*/}
+                  {/*    </ul>*/}
+                  {/*  </li>*/}
+                  {/*  <li>*/}
+                  {/*    <a href="/contact" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out">Request code</a>*/}
+                  {/*  </li>*/}
+                  {/*</ul>*/}
                 </div>
               </nav>
             </Transition>

@@ -1,9 +1,12 @@
 import React, {useState} from 'react';
 import Modal from '../utils/Modal';
 import copy from '../config/copy';
+import {Field, Form, Formik} from "formik";
+import {sendEnquiryForm} from "../services/applyService";
+import {useRouter} from "next/router";
 
 function HeroHome() {
-
+  const router = useRouter()
 
   return (
     <section>
@@ -19,14 +22,28 @@ function HeroHome() {
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down"
                  data-aos-delay="150">{copy.hero.subheading}</p>
               {/* CTA form */}
-              <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
-                <div className="flex flex-col sm:flex-row justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
-                  <input type="tel" className="form-input w-full mb-2 sm:mb-0 sm:mr-2"
-                         placeholder={copy.hero.placeholderText} aria-label="Email address"/>
-                  <a className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0"
-                     href="#0">{copy.hero.buttonText}</a>
-                </div>
-              </form>
+              <Formik
+                initialValues={{
+                  email: undefined,
+                }}
+                onSubmit={async (values) => {
+                  console.log('hero submit', values)
+                  if (values.email !== '') {
+                    return await router.push(`/apply?email=${values.email}`);
+                  }
+                }}
+              >
+                <Form>
+                  <div className="mt-8" data-aos="fade-down" data-aos-delay="300">
+                    <div className="flex flex-col sm:flex-row justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
+                      <Field id="email" name="email" className="form-input w-full mb-2 sm:mb-0 sm:mr-2"
+                             placeholder={copy.hero.placeholderText} aria-label="Email address"/>
+                      <button className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0"
+                              type="submit">{copy.hero.buttonText}</button>
+                    </div>
+                  </div>
+                </Form>
+              </Formik>
               <ul className="max-w-sm sm:max-w-md mx-auto md:max-w-none text-gray-600 dark:text-gray-400 mt-8 -mb-2"
                   data-aos="fade-down" data-aos-delay="450">
                 {copy.hero.bullets.map(bullet => <li className="flex items-center mb-2">
@@ -64,13 +81,19 @@ function HeroHome() {
                   </defs>
                 </svg>
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute services-gif" src="/images/mockup-image-01.png"  alt="Features illustration"/>
+                <img className="absolute services-gif" src="/images/mockup-image-01.png" alt="Features illustration"/>
                 {/* iPhone mockup */}
                 <img className="home-phone relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none"
-                     src="/images/iphone-mockup.png"  alt="iPhone mockup" aria-hidden="true"/>
-                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-one"  src="/images/payment-notifcation.png" alt="Element 01"  />
-                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification two hsn-two" src="/images/payment-notifcation.png" alt="Element 01"  />
-                <img className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-three" src="/images/payment-notifcation.png" alt="Element 01"  />
+                     src="/images/iphone-mockup.png" alt="iPhone mockup" aria-hidden="true"/>
+                <img
+                  className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-one"
+                  src="/images/payment-notifcation.png" alt="Element 01"/>
+                <img
+                  className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification two hsn-two"
+                  src="/images/payment-notifcation.png" alt="Element 01"/>
+                <img
+                  className="md:max-w-none absolute w-full left-0 transform animate-float home-stripe-notification hsn-three"
+                  src="/images/payment-notifcation.png" alt="Element 01"/>
               </div>
 
             </div>
