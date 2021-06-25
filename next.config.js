@@ -1,16 +1,16 @@
-const path = require('path')
+const path = require('path');
 module.exports = {
   target: 'serverless',
   trailingSlash: true,
-  webpackDevMiddleware: config => {
+  webpackDevMiddleware: (config) => {
     config.watchOptions = {
       poll: 1000,
-      aggregateTimeout: 300
-    }
+      aggregateTimeout: 300,
+    };
 
-    return config
+    return config;
   },
   sassOptions: {
-    includePaths: [path.join(__dirname, '/styles')]
-  }
-}
+    includePaths: [path.join(__dirname, '/styles')],
+  },
+};

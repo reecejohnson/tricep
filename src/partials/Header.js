@@ -1,10 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Dropdown from '../utils/Dropdown';
 import Transition from '../utils/Transition.js';
-import Link from "next/link";
+import Link from 'next/link';
 
 function Header() {
-
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   const mobileNav = useRef(null);
@@ -29,17 +28,15 @@ function Header() {
     return () => document.removeEventListener('keydown', keyHandler);
   });
 
-
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-
           {/* Site branding */}
           <div className="flex-shrink-0 mr-5">
             {/* Logo */}
             <a href="/" className="block" aria-label="Cruip">
-              <img className="h-8" src="/images/tricep-teal.svg"/>
+              <img className="h-8" src="/images/tricep-teal.svg" />
               {/*<svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">*/}
               {/*  <defs>*/}
               {/*    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">*/}
@@ -59,7 +56,6 @@ function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:flex-grow">
-
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap items-center font-medium">
               {/*<li>*/}
@@ -86,19 +82,28 @@ function Header() {
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
               <li>
-                <a href="/apply" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Apply now</a>
+                <a href="/apply" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
+                  Apply now
+                </a>
               </li>
             </ul>
-
           </nav>
 
           {/* Mobile menu */}
           <div className="inline-flex md:hidden">
-
             {/* Hamburger button */}
-            <button className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
+            <button
+              className={`hamburger ${mobileNavOpen && 'active'}`}
+              aria-controls="mobile-nav"
+              aria-expanded={mobileNavOpen}
+              onClick={() => setMobileNavOpen(!mobileNavOpen)}
+            >
               <span className="sr-only">Menu</span>
-              <svg className="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                className="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect y="4" width="24" height="2" rx="1" />
                 <rect y="11" width="24" height="2" rx="1" />
                 <rect y="18" width="24" height="2" rx="1" />
@@ -117,7 +122,11 @@ function Header() {
               leaveStart="opacity-100"
               leaveEnd="opacity-0"
             >
-              <nav id="mobile-nav" ref={mobileNav} className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg">
+              <nav
+                id="mobile-nav"
+                ref={mobileNav}
+                className="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg"
+              >
                 <div className="py-6 pr-4 pl-20">
                   {/* Links */}
                   {/*<ul>*/}
@@ -148,9 +157,7 @@ function Header() {
                 </div>
               </nav>
             </Transition>
-
           </div>
-
         </div>
       </div>
     </header>

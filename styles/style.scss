@@ -41,12 +41,12 @@ $aos-distance: 16px;
 }
 
 .home-stripe-notification {
-  left: 0%
+  left: 0%;
 }
 
 .hsn-one {
   left: -25%;
-  top:-5%;
+  top: -5%;
 }
 
 .hsn-two {
@@ -57,7 +57,6 @@ $aos-distance: 16px;
 .hsn-three {
   display: none;
 }
-
 
 @media screen and (min-width: 992px) {
   .home-phone {
@@ -74,7 +73,7 @@ $aos-distance: 16px;
   }
 
   .home-stripe-notification {
-    left: -65%
+    left: -65%;
   }
 
   .hsn-one {
@@ -97,7 +96,6 @@ $aos-distance: 16px;
 .modal-image {
   z-index: 100;
 }
-
 
 .modal {
   transition: opacity 0.25s ease;

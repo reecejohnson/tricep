@@ -1,8 +1,5 @@
 module.exports = {
-  purge: [
-    './src/**/*.js',
-    './pages/**/*.js',
-  ],
+  purge: ['./src/**/*.js', './pages/**/*.js'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -140,8 +137,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/custom-forms'),
-    require( 'tailwindcss' ),
-    require( 'precss' ),
-    require( 'autoprefixer' )
-  ]
-}
+    require('tailwindcss'),
+    require('precss'),
+    require('autoprefixer'),
+  ],
+};
