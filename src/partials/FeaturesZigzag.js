@@ -142,9 +142,8 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="/images/feature.png"
-                  width="540"
-                  height="405"
+                  src="/images/funnel.png"
+                  style={{ height: '400px'}}
                   alt="Features 02"
                 />
               </div>
@@ -186,9 +185,8 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="/images/feature.png"
-                  width="540"
-                  height="405"
+                  src="/images/ebook.png"
+                  style={{ height: '400px'}}
                   alt="Features 02"
                 />
               </div>
